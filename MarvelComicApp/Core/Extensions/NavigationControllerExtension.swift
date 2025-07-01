@@ -22,8 +22,7 @@ extension UINavigationController {
         
         let title = UILabel()
         title.text = titleNavBar
-        title.font = UIFont.systemFont(ofSize: 48)
-        title.font = "Bentham-Regular"
+        title.font = UIFont(name: K.Fonts.badaBoom, size: K.Size.title)
         title.textColor = .white
         
 

@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let presentation = HomePresentation()
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        navBarStyling()
+        setup()
     }
-
+    
+    fileprivate func setup() {
+        presentation.controller = self
+        presentation.displayLayout()
+    }
+    
+    fileprivate func navBarStyling() {
+        
+        navigationController?.navStyle(titleNavBar: "Comic Characters", controller: self)
+    }
 
 }
 
