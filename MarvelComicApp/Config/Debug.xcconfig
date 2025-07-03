@@ -7,3 +7,7 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL=https://gateway.marvel.com/v1/public
+API_PUBLIC_KEY=SUA_CHAVE_PUBLICA
+API_PRIVATE_KEY=SUA_CHAVE_PRIVADA
