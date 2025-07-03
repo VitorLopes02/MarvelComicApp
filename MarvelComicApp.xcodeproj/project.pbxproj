@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F78D6AF2E16B18F001F63F6 /* .gitignore.rtf  in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D6AE2E16B184001F63F6 /* .gitignore.rtf  */; };
+		6F78D6B12E16B2ED001F63F6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D6B02E16B2E9001F63F6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F78D6AE2E16B184001F63F6 /* .gitignore.rtf  */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore.rtf "; sourceTree = "<group>"; };
+		6F78D6B02E16B2E9001F63F6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6FC1B54C2E12C7390043A042 /* MarvelComicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelComicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC1B5622E12C73A0043A042 /* MarvelComicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC1B56C2E12C73A0043A042 /* MarvelComicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +83,11 @@
 			path = MarvelComicApp;
 			sourceTree = "<group>";
 		};
+		6F78D6BE2E16B55D001F63F6 /* Config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Config;
+			sourceTree = "<group>";
+		};
 		6FC1B5652E12C73A0043A042 /* MarvelComicAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MarvelComicAppTests;
@@ -123,11 +128,12 @@
 		6FC1B5432E12C7390043A042 = {
 			isa = PBXGroup;
 			children = (
-				6F78D6AE2E16B184001F63F6 /* .gitignore.rtf  */,
+				6F78D6B02E16B2E9001F63F6 /* .gitignore */,
 				6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */,
 				6FC1B5652E12C73A0043A042 /* MarvelComicAppTests */,
 				6FC1B56F2E12C73A0043A042 /* MarvelComicAppUITests */,
 				6FC1B54D2E12C7390043A042 /* Products */,
+				6F78D6BE2E16B55D001F63F6 /* Config */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +207,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */,
+				6F78D6BE2E16B55D001F63F6 /* Config */,
 				6FC1B56F2E12C73A0043A042 /* MarvelComicAppUITests */,
 			);
 			name = MarvelComicAppUITests;
@@ -273,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F78D6AF2E16B18F001F63F6 /* .gitignore.rtf  in Resources */,
+				6F78D6B12E16B2ED001F63F6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
