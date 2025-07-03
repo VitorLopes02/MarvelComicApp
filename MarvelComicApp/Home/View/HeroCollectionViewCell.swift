@@ -54,6 +54,9 @@ class HeroCollectionViewCell: UICollectionViewCell {
         heroImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: K.Size.small).isActive = true
         heroImage.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -K.Size.small).isActive = true
         
+        
+        print("\(Environment.baseURL)")
+        
         contentView.addSubview(containerLabel)
         containerLabel.leadingAnchor.constraint(equalTo: heroImage.leadingAnchor).isActive = true
         containerLabel.trailingAnchor.constraint(equalTo: heroImage.trailingAnchor).isActive = true

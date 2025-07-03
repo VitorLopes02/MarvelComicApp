@@ -9,6 +9,9 @@ import Foundation
 
 class RequestHandler {
     let baseURL = "https://gateway.marvel.com"
+    let privateKey = "ajustar no xxconfig"
+    let publicKey = "ajustar no xxconfig"
+
     
     func getCharacters() -> URLRequest {
         let endpoint = "/v1/public/characters"

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6F78D6B12E16B2ED001F63F6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D6B02E16B2E9001F63F6 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6FC1B5632E12C73A0043A042 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F78D6B02E16B2E9001F63F6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6FC1B54C2E12C7390043A042 /* MarvelComicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelComicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC1B5622E12C73A0043A042 /* MarvelComicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC1B56C2E12C73A0043A042 /* MarvelComicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +42,7 @@
 				AppDelegate.swift,
 				Assets.xcassets,
 				Core/Constants/Constants.swift,
+				Core/Constants/Environment.swift,
 				Core/Extensions/CodeableExtension.swift,
 				Core/Extensions/NavigationControllerExtension.swift,
 				Core/Hash/Hash.swift,
@@ -75,6 +81,11 @@
 				6F78D6772E12CEAD001F63F6 /* Exceptions for "MarvelComicApp" folder in "MarvelComicAppUITests" target */,
 			);
 			path = MarvelComicApp;
+			sourceTree = "<group>";
+		};
+		6F78D6BE2E16B55D001F63F6 /* Config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Config;
 			sourceTree = "<group>";
 		};
 		6FC1B5652E12C73A0043A042 /* MarvelComicAppTests */ = {
@@ -117,10 +128,12 @@
 		6FC1B5432E12C7390043A042 = {
 			isa = PBXGroup;
 			children = (
+				6F78D6B02E16B2E9001F63F6 /* .gitignore */,
 				6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */,
 				6FC1B5652E12C73A0043A042 /* MarvelComicAppTests */,
 				6FC1B56F2E12C73A0043A042 /* MarvelComicAppUITests */,
 				6FC1B54D2E12C7390043A042 /* Products */,
+				6F78D6BE2E16B55D001F63F6 /* Config */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +207,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */,
+				6F78D6BE2E16B55D001F63F6 /* Config */,
 				6FC1B56F2E12C73A0043A042 /* MarvelComicAppUITests */,
 			);
 			name = MarvelComicAppUITests;
@@ -266,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F78D6B12E16B2ED001F63F6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +326,8 @@
 /* Begin XCBuildConfiguration section */
 		6FC1B5762E12C73A0043A042 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 6F78D6BE2E16B55D001F63F6 /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +356,8 @@
 		};
 		6FC1B5772E12C73A0043A042 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 6F78D6BE2E16B55D001F63F6 /* Config */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
