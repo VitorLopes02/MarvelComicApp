@@ -31,7 +31,7 @@ class HeroCollectionViewCell: UICollectionViewCell {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = UIColor(white: 0, alpha: 0.7)
-        view.layer.cornerRadius = K.Size.body
+        view.layer.cornerRadius = K.Size.title
         view.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         return view
         
@@ -40,9 +40,9 @@ class HeroCollectionViewCell: UICollectionViewCell {
     var heroNameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "teste"
+        label.text = "Cool Comics"
         label.textColor = .white
-        label.font = UIFont(name: K.Fonts.badaBoom, size: K.Size.title)
+        label.font = UIFont(name: K.Fonts.badaBoom, size: K.Size.large)
         label.numberOfLines = 1
         return label
     }()
