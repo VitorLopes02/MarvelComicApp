@@ -326,8 +326,8 @@
 /* Begin XCBuildConfiguration section */
 		6FC1B5762E12C73A0043A042 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */;
-			baseConfigurationReferenceRelativePath = Config/Debug.xcconfig;
+			baseConfigurationReferenceAnchor = 6F78D6BE2E16B55D001F63F6 /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,8 +356,8 @@
 		};
 		6FC1B5772E12C73A0043A042 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 6F78D66F2E12CEAD001F63F6 /* MarvelComicApp */;
-			baseConfigurationReferenceRelativePath = Config/Release.xcconfig;
+			baseConfigurationReferenceAnchor = 6F78D6BE2E16B55D001F63F6 /* Config */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
