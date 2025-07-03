@@ -1,0 +1,8 @@
+//
+//  .gitignore.rtf 
+//  MarvelComicApp
+//
+//  Created by VITOR ANDRADE LOPES on 03/07/25.
+//
+
+Config/*.xcconfig
